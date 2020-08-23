@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="singer-pathmatch",
-    version="0.0.1",
+    version="0.0.2",
     author="Angaza",
     description="select fields in a Singer catalog using git-style pattern matching",
     long_description=long_description,
