@@ -10,7 +10,7 @@ setuptools.setup(
     description="select fields in a Singer catalog using git-style pattern matching",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/angaza/singer-patch-catalog",
+    url="https://github.com/angaza/singer-pathmatch",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -23,4 +23,8 @@ setuptools.setup(
         ]
     },
     python_requires='>=3.6',
+    install_requires=[
+        "singer-python>=5.6.1",
+        "pathmatch>=0.2.2",
+    ],
 )
